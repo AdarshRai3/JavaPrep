@@ -2,9 +2,6 @@ import java.util.*;
 public class Test1 {
     
     public static boolean isAnagram(String s1,String s2){
-
-        
-
         if(s1.length()!=s2.length()){
             return false;
         }

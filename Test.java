@@ -35,12 +35,13 @@ public class Test{
         int[] arr = new int[]{8,10,5,7,-9,10};
 
         int n = findSecondLargest(arr);
+        System.out.println(n);
         int k = findIndexOfLargest(arr);
         arr[k]=-1;
         int l = findIndexOfLargest(arr);
         System.out.println(arr[l]);
 
-        System.out.println(n);
+        System.out.println(l);
         
     }
 }

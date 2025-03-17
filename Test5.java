@@ -37,9 +37,6 @@ public class Test5 {
             }else{
                 binarySearchR(arr, target,low,mid-1);
             }
-        
-        
-
     }
     public static void main(String []args){
         int [] arr = new int[]{1,2,3,4,7,8,9,13,14,20,21,27};

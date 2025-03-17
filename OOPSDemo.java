@@ -1,4 +1,4 @@
-public class InheritanceDemo{
+public class OOPSDemo{
     public static void main(String[] args){
         Iphone iphone = new Iphone(789);
         iphone.call();

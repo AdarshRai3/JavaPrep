@@ -12,6 +12,7 @@ public class Test3 {
            }
            hs.put(i,arr[i]);
         }
+        System.out.println("Second Largest don't exist");
     }
 
     public static void main(String []args){
